@@ -4,6 +4,7 @@ import colorNames from "colornames";
 const Input = ({ colorValue, setColorValue, setHexValue }) => {
   return (
     <input
+      autoFocus
       type="text"
       placeholder="Enter color value..."
       value={colorValue}
