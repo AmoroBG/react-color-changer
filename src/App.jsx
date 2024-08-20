@@ -1,7 +1,13 @@
+import Input from "./components/Input";
+import Square from "./components/Square";
+
 function App() {
+  
+
   return (
     <div className="App">
-      <h1>Color Changer</h1>
+      <Square />
+      <Input />
     </div>
   );
 }
