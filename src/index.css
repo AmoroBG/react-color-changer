@@ -17,7 +17,7 @@ body{
   align-items: center;
   justify-content: center;
 }
-.square, input{
+.square, input, button{
 background-color: white;
 border: 5px solid royalblue;
 border-radius: 8px;
@@ -33,7 +33,12 @@ margin: 0.5rem 0;
   align-items: center;
   justify-content: center;
 }
-input{
+input, button{
   width: 20rem;
   padding: 0.5rem 2rem;
+}
+button{
+background-color: #ccc;
+cursor: pointer;
+
 }
